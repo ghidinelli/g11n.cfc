@@ -1,7 +1,7 @@
 # g11n.cfc
 A ColdFusion Component that helps with Globalization (g11n) - Internationalization (i18n) and Localization (l10n)
 
-For a primery on Globalization with ColdFusion, check [https://gist.github.com/coldfusionPaul/3779416 this gist] from Paul Hastings (who knows a ton about g11n).
+For a primer on Globalization with ColdFusion, check [https://gist.github.com/coldfusionPaul/3779416 this gist] from Paul Hastings (who knows a ton about g11n).
 
 Some assumptions:
 
