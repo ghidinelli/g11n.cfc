@@ -18,9 +18,10 @@ writeOutput(g11n.formatDateTime(now(), "short")); // now() formatted as 'M/d/yy 
 writeOutput(g11n.formatCurrency(50000.50)); // $50,000.50
 ```
 
-You can also pass the desired locale and timezone to most methods:
+You can also pass the desired locale and timezone to most methods or change the default:
 
 ```
 writeOutput(g11n.getDateMask(locale = "en_GB", mask = "short")); // dd/MM/yy HH:mm
+g11n.setDefaultLocale("en_GB");
 writeOutput(g11n.formatCurrency(50000.50)); // £50.000,50
 ```
